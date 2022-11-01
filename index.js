@@ -95,7 +95,7 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   1. Add this feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
   2. log the reviews array to the console to check your work
 */
-reviews.push ( {feedback :"this place is chill with really cool people, great for getting work dont on the weekdays"});
+reviews.assign ( {feedback :"this place is chill with really cool people, great for getting work dont on the weekdays"});
 
 console.log(reviews[7]);
 
