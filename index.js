@@ -111,13 +111,13 @@ Use the addReview function below to do the following:
 */
 
 
-function addReview(array,name, rating, feedback){
+function addReview(name, rating, feedback){
  
   reviews.push(name,rating,feedback)
   
   
 }
-console.log (addReview('reviews','billy',2,'Lame food!'));
+console.log (addReview('billy',2,'Lame food!'));
 
 
 
