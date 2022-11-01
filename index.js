@@ -20,7 +20,7 @@ function createMenuItem (name, price ,category)
 {
   const tacos ={name: 'tacos', price: 8, category:'lunch'
 }
-return tacos
+return (name,price,category)
 }
 
 console.log (createMenuItem)
