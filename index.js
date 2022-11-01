@@ -118,7 +118,7 @@ function addReview(name, rating, feedback){
   
 }
 console.log (addReview ( 'billy' , 2 , 'Lame food!'));
-reviews.push (function(addReview));
+reviews.add (addReview);
 console.log (reviews)
 
 
