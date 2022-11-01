@@ -111,14 +111,13 @@ Use the addReview function below to do the following:
 */
 
 
-function addReview( name, rating, feedback){
+function addReview(name, rating, feedback){
  
   return ( name,rating, feedback)
 }
 console.log (addReview ( 'billy',2,'Lame food!'));
 
-reviews.push(addReview);
-console.log (reviews);
+console.log (reviews)
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
