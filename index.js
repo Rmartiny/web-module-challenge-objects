@@ -35,7 +35,7 @@ Test your createMenuItems function by doing the following:
 */
 console.log('task1b',createMenuItem('hot dog', 4, 'snack'));
 console.log('task1b', createMenuItem ('onigri', 3.50, "snack"));
-console.log('task1b' createMenuItem('bag of chips',2.50,'snack'));
+console.log('task1b', createMenuItem('bag of chips',2.50,'snack'));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
