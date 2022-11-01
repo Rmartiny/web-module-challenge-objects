@@ -113,11 +113,11 @@ Use the addReview function below to do the following:
 
 function addReview(name, rating, feedback){
  
-  return (name,rating,feedback);
+  return (name, rating , feedback);
   
   
 }
-console.log (addReview ( 'billy',2,'Lame food!'));
+console.log (addReview ( 'billy' , 2 , 'Lame food!'));
 
 
 
