@@ -22,7 +22,7 @@ function createMenuItem (name, price ,category)
 return (name,price,category);
 }
 
-console.log ('task 1a', createMenuItem( 'tacos', 8, 'lunch'));
+console.log ('task 1a', createMenuItem( 'tacos', '8', 'Lunch'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b (not auto-tested): 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
