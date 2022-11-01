@@ -18,12 +18,11 @@ The function should:
 
 function createMenuItem (name, price ,category)
 {
-  const tacos ={name: 'tacos', price: 8, category:'lunch'
-}
+
 return (name,price,category)
 }
 
-console.log (createMenuItem)
+console.log ('task 1a', createMenuItem( 'tacos', 8, lunch))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b (not auto-tested): 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
