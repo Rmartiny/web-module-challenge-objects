@@ -116,7 +116,7 @@ function addReview(array,name, rating, feedback){
   array={name,rating,feedback};
   return array;
 }
-const Billy=addReview({}reviews,'billy',2,'lame food!');
+const Billy=addReview(reviews,'billy',2,'lame food!');
 
 console.log(Billy);
 
