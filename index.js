@@ -111,12 +111,12 @@ Use the addReview function below to do the following:
 */
 
 
-function addReview(obj,name, rating, feedback){
+function addReview(array,name, rating, feedback){
  
-  obj={name,rating,feedback};
-  return obj;
+  array={name,rating,feedback};
+  return array;
 }
-const Billy=addReview({},'billy',2,'lame food!');
+const Billy=addReview(reviews{'billy',2,'lame food!'});
 
 console.log(Billy);
 
