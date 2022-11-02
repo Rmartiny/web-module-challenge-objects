@@ -118,8 +118,8 @@ function addReview(array,name, rating, feedback){
 }
 const Billy=addReview(reviews,'billy',2,'lame food!');
 
-console.log(Billy);
 
+ console.log (Billy);
 
 
 
