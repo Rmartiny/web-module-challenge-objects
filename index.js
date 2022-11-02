@@ -119,7 +119,8 @@ function addReview(obj,name, rating, feedback){
 const Billy=addReview({},'billy',2,'lame food!');
 
 console.log(Billy);
-
+reviews.push(Billy);
+console.log(reviews);
 
 
 
