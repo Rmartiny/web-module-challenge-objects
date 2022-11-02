@@ -118,7 +118,7 @@ function addReview(array,name, rating, feedback){
   rating ,
   feedback
 };
-  return reviews.push;
+  return array;
 }
 const Billy=addReview( reviews,'billy',2,'lame food!');
 
@@ -141,9 +141,11 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(/*Your code here*/) {
+function getReviewByIndex(array,number) {
+  return `${array[number].name} gave the resturant a ${array[number].review} star review, and their feedback was: ${array[number].name}`
   /*Your code here*/
 }
+console.log (getReviewByIndex (reviews,0));
 
   
 
