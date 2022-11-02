@@ -120,6 +120,7 @@ function addReview(name, rating, feedback){
   
 }
 console.log (addReview('billy',2,'Lame food!'));
+console.log (newreviews)
 
 
 
