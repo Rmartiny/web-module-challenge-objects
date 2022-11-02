@@ -113,10 +113,11 @@ Use the addReview function below to do the following:
 
 function addReview(array,name, rating, feedback){
  
-  array={array,
+  array={
   name,
   rating ,
-  feedback};
+  feedback
+};
   return array.push;
 }
 const Billy=addReview( reviews,'billy',2,'lame food!');
